@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishabh - Developer Porfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:,wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="portfolio.css" rel="stylesheet" type="text/css"/>
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Rishabh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="https://www.google.com/">Home</a></li>
+                    <li> <a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <div>Hi, My name is <span class="purple">Rishabh</span></div>
+                <div>and I am passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">
+                      <a href="Rishabh_Gupta_Resume.pdf" download class="btndownload"></a>  Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="web.png" alt="" />
+            </div>
+        </section>
+        <hr />
+        <section class="secondSection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="etl.png" alt="" />
+                    <div class="vertical-title">
+                        ETL Developer (2018-2020)
+                    </div>
+                    <div class="vertical-desc">Accenture</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="devops.png" alt="" />
+                    <div class="vertical-title">
+                        DevOps Engineer (2020-2021)
+                    </div>
+
+                    <div class="vertical-desc">Accenture</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="tester1.png" alt="" />
+                    <div class="vertical-title">
+                        Senior QA Engineer (2021-2022)
+                    </div>
+                    <div class="vertical-desc">Paymentus</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="tester2.png" alt="" />
+                    <div class="vertical-title">
+                        Senior QA Engineer (2022-present)
+                    </div>
+                    <div class="vertical-desc">Ameriprise</div>
+                </div>
+            </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>
+                    Rishabh's QA Portfolio
+                </h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>
+                        Home
+                    </li>
+                    <li>
+                        About
+                    </li>
+                    <li>
+                        Services
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; rishabhportfolio.com | All Rights Reserved®
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['QA Engineer', 'DevOps Engineer', 'Automation Tester', 'Regression Tester'],
+            typeSpeed: 40,
+        });
+    </script>
+</body>
+
+</html>

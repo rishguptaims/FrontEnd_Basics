@@ -1,2 +1,2 @@
 # FrontEnd_Basics
-Project Using HTML &amp; CSS
+Project Using HTML & CSS
